@@ -1,0 +1,96 @@
+/** CSS STYLE **/
+:root {
+    --white: #fff;
+    --cloudy-white: #d7ccc0;
+    --light: #f5f4f0;
+    --main-color: #fe8a02;
+    --main-color-dark: #42413c;
+    --dark: #2a2626;
+    --cloudy-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Neucha';
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+.primary {
+    color: #FE8A02;
+}
+
+.header {
+    height: 914px;
+    overflow: hidden;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.headline-and-img {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 480px;
+}
+
+.main-img {
+    position: absolute;
+    right: -270px;
+    z-index: -1;
+}
+
+.main-img img {
+    height: 525px;
+}
+
+.text-cols {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-cols-item {
+    width: 540px;
+}
+
+.btn {
+    color: white;
+    background: var(--main-color);
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
